@@ -2,7 +2,7 @@
 Semantic Motion Segmentation using Optical flow and Convolutional Neural Networks
 
 # Overview
-This thesis is being currently conducted at Universität Paderborn in GETLAB (https://getwww.uni-paderborn.de/teaching/) under the supervision of Prof. Dr.-Ing. Bärbel Mertsching.
+This master thesis is being conducted currently at Universität Paderborn in GETLAB (https://getwww.uni-paderborn.de/teaching/) under the supervision of Prof. Dr.-Ing. Bärbel Mertsching.
 
 In this thesis work, motion segmentation for sequence of images captured using a moving camera is performed. For designing this motion segmentation algorithm, a classical computer vision approach in combination with a recent and well known deep learning approach is used. In order to obtain superior motion segmentations for moving camera images, the thesis work uses semantic labeling for sequence of images and optical flow orientations which are calculated using this information. Also, a CNN is used for which these optical flow orientations are used as inputs.
 
