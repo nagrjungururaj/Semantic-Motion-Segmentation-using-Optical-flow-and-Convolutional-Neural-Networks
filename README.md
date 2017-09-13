@@ -28,7 +28,7 @@ Paper 3: Narayana, Manjunath; Hanson, Allen; Learned-Miller, Erik: Coherent moti
 
 # Thesis Methodology
 
-1. Semantic segmentation using a pre-trained Fully-Convolutional Neural Network. Pre-trained networks can be downloaded here : http://www.vlfeat.org/matconvnet/pretrained/
+1. Semantic segmentation using a pre-trained Fully-Convolutional Neural Network (FCN8). Pre-trained networks can be downloaded here : http://www.vlfeat.org/matconvnet/pretrained/
 2. Separation of foreground and background of images and calculation of optical flow orientations
 3. Using optical flow orientations as inputs to a pre-trained CNN for classification and retraining the last three layers of the pre-trained network for the respective additional classes (In progress)
 4. Based on the knwoledge of labels from CNN, reconstruction of the foreground images using autoencoders and labeling of moving objects and stationary objects using color coding (In progress)
@@ -41,7 +41,8 @@ The thesis work uses the Densely Annotated Video Segmentation (version 2017) ben
 1. Matlab 2017a or higher
 2. Matconvnet deep learning library 
 3. Matlab Image Processing toolbox
-4. Matlab Neural network toolbox
+4. Matlab Computer Vision toolbox
+5. Matlab Neural network toolbox
 
 
 
