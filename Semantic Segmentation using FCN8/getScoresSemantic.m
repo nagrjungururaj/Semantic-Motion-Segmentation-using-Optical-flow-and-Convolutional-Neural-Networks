@@ -2,7 +2,7 @@ clc;
 clear all;
 DATA_DIR = 'path_to_image_folder';
 NET_DIR = 'path_to_the_network';
-SCORE_DIR = 'path_to_folder_to_store_scores';
+SCORE_DIR = 'path_of_folder_to_store_scores';
 
 files = dir(fullfile(DATA_DIR, '*.jpg'));
 filenames = {files(:).name}; % All the images are now in a cell array
