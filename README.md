@@ -31,7 +31,7 @@ Paper 3: Narayana, Manjunath; Hanson, Allen; Learned-Miller, Erik: Coherent moti
 1. Semantic segmentation using a pre-trained Fully-Convolutional Neural Network (FCN8). Pre-trained networks can be downloaded here : http://www.vlfeat.org/matconvnet/pretrained/
 2. Separation of foreground and background of images and calculation of optical flow orientations
 3. Using optical flow orientations as inputs to a pre-trained CNN for classification and retraining the last three layers of the pre-trained network for the respective additional classes (In progress)
-4. Based on the knledge of labels from CNN, reconstruction of the foreground images using autoencoders and labeling of moving objects and stationary objects using color coding (In progress)
+4. Based on the knowledge of labels from CNN, reconstruction of the foreground images using autoencoders and labeling of moving objects and stationary objects using color coding (In progress)
 5. Comparison of motion segmented images with ground truth images (In progress)
 
 # Dataset
