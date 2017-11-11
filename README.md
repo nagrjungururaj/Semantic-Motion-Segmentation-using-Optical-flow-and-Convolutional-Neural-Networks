@@ -29,20 +29,23 @@ Paper 3: Narayana, Manjunath; Hanson, Allen; Learned-Miller, Erik: Coherent moti
 # Thesis Methodology
 
 1. Semantic segmentation using a pre-trained Fully-Convolutional Neural Network (FCN8). Pre-trained networks can be downloaded here : http://www.vlfeat.org/matconvnet/pretrained/
-2. Separation of foreground and background of images and calculation of optical flow orientations
-3. Using optical flow orientations as inputs to a pre-trained CNN for classification and retraining the last three layers of the pre-trained network for the respective additional classes (In progress)
-4. Based on the knowledge of labels from CNN, reconstruction of the foreground images using autoencoders and labeling of moving objects and stationary objects using color coding (In progress)
-5. Comparison of motion segmented images with ground truth images (In progress)
+2. Generating ground truth using the Matlab Image Segmenter App and calculation of ground truth optical flow orientations
+3. Further, these optical flow oerientations are used to train a CNN from scratch to differentiate the motion of objects and camera movement.
+4. Based on the combined knowledge of accuracy of motion labels of new optical flow orientation data from the trained CNN along with the prior object information obtained in Step 1, the output motion segmented images are labeled with the motion and object labels with the accuracy.
+5. Further, the trained CNN is tested for three different motion segmentation datasets namely: MOViCs, FBMS and SegTrackv2.
 
 # Dataset
 The thesis work uses the Densely Annotated Video Segmentation (version 2017) benchmark dataset. The dataset can be downloaded in the following link : http://davischallenge.org/code.html
 
-# Pre-requisites
+# Pre-requisites for MATLAB
 1. Matlab 2017a or higher
 2. Matconvnet deep learning library 
 3. Matlab Image Processing toolbox
 4. Matlab Computer Vision toolbox
 5. Matlab Neural network toolbox
 
-
+# Pre-requisites for training CNN
+1. Python 2.7 or higher
+2. Tensorflow (tensorflow.org)
+3. Optional GPU support
 
