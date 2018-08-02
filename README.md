@@ -1,4 +1,4 @@
-# Master-Thesis
+# Master-Project II
 Semantic Motion Segmentation using Optical flow and Convolutional Neural Networks
 
 # Overview
