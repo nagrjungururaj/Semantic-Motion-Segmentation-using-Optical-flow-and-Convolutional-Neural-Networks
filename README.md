@@ -1,5 +1,4 @@
-# Master-Project II
-Semantic Motion Segmentation using Optical flow and Convolutional Neural Networks
+# Semantic Motion Segmentation using Optical flow and Convolutional Neural Networks
 
 # Overview
 This master thesis is being conducted currently at Universität Paderborn in GETLAB (https://getwww.uni-paderborn.de/teaching/) under the supervision of Prof. Dr.-Ing. Bärbel Mertsching.
